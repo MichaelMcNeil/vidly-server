@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/rentals
+content-type: application/json
+
+{
+    "customerId": "5bf9c3fa53da2e21a4eae1c6",
+    "movieId": "5bf9fdf846a7da4396a666ae"
+}
+###
+POST http://localhost:3000/api/rentals
+content-type: application/json
+
+{
+    "customerId": "1234",
+    "movieId": "5bf9fdf846a7da4396a666ae"
+}

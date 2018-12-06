@@ -1,0 +1,25 @@
+GET http://localhost:3000/api/genres/3
+###
+GET http://localhost:3000/api/movies
+###
+POST http://localhost:3000/api/movies
+content-type: application/json
+
+{
+    "title": "The Life Aquatic",
+    "genreId": "5bf9fd15b891034332a39e21",
+    "numberInStock": "7",
+    "dailyRentalRate": "1.75"
+}
+###
+PUT http://localhost:3000/api/movies/5bf9fdf846a7da4396a666ae
+content-type: application/json
+
+{
+    "title": "The Life Aquatic",
+    "genreId": "5bf9fd13b891034332a39e20",
+    "numberInStock": "7",
+    "dailyRentalRate": "1.75"
+}
+###
+DELETE http://localhost:3000/api/genres/5bf9fdf846a7da4396a666ae

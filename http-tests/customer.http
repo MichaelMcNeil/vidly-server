@@ -1,0 +1,30 @@
+GET http://localhost:3000/api/customers/5bf9c40b53da2e21a4eae1c7
+###
+GET http://localhost:3000/api/customers 
+###
+POST http://localhost:3000/api/customers
+content-type: application/json
+
+{
+    "name": "Michael McNeil",
+    "phone": "5027441608",
+    "isGold": "true"
+}
+###
+POST http://localhost:3000/api/customers
+content-type: application/json
+
+{
+    "name": "Michelle McNeil",
+    "phone": "2705191417",
+    "isGold": "false"
+}
+###
+PUT http://localhost:3000/api/customers/5bf9c40b53da2e21a4eae1c7
+content-type: application/json
+
+{
+    "name": "I'm Updated"
+}
+###
+DELETE http://localhost:3000/api/customers/5beb93f159ef6e43444025e6

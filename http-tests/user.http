@@ -1,0 +1,21 @@
+GET http://localhost:3000/api/users/me
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmZjYWNlMTBjMGZmNzIxZWNmZGM4M2UiLCJpYXQiOjE1NDMyODU5ODV9.QTX5IZhwGaw6tiO5gT57houzckeGaURD-CdG2g_f_pA
+###
+POST http://localhost:3000/api/users
+content-type: application/json
+
+{
+    "name": "Michael McNeil",
+    "email": "michaelmcneil.vt6@gmail.com",
+    "password": "12345678"
+}
+
+###
+#Authenticating a User
+POST http://localhost:3000/api/auth
+content-type: application/json
+
+{
+    "email": "michaelmcneil.vt6@gmail.com",
+    "password": "12345678"
+}

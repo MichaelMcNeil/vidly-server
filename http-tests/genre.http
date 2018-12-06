@@ -1,0 +1,35 @@
+GET http://localhost:3000/api/genres/3
+###
+GET http://localhost:3000/api/genres 
+###
+POST http://localhost:3000/api/genres
+content-type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmZjYWNlMTBjMGZmNzIxZWNmZGM4M2UiLCJpYXQiOjE1NDMyODU5ODV9.QTX5IZhwGaw6tiO5gT57houzckeGaURD-CdG2g_f_pA
+
+{
+    "name": "Sci-fi"
+}
+###
+POST http://localhost:3000/api/genres
+content-type: application/json
+
+{
+    "name": "Comedy"
+}
+###
+POST http://localhost:3000/api/genres
+content-type: application/json
+
+{
+    "name": "Drama"
+}
+###
+PUT http://localhost:3000/api/genres/6
+content-type: application/json
+
+{
+    "name": "updated genre"
+}
+###
+DELETE http://localhost:3000/api/genres/5bfcad630c0ff721ecfdc83f
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmZjYWNlMTBjMGZmNzIxZWNmZGM4M2UiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE1NDMyODczNjJ9.C9F_khD0mSU_4gFbgSLiBrZz244QZtgy4Kxxw9TJ_b8

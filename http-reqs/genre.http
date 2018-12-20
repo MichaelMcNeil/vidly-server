@@ -1,10 +1,11 @@
 GET http://localhost:3000/api/genres/3
 ###
 GET http://localhost:3000/api/genres 
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzExYmRjNTM5Y2Q1NjEzZDAxOTk1ZjQiLCJpYXQiOjE1NDQ2NjY1NzN9.FtQOr6yxYAGpcSOa1m_2ww1ncAS3brR9tjyYZxfHG-I
 ###
 POST http://localhost:3000/api/genres
 content-type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmZjYWNlMTBjMGZmNzIxZWNmZGM4M2UiLCJpYXQiOjE1NDMyODU5ODV9.QTX5IZhwGaw6tiO5gT57houzckeGaURD-CdG2g_f_pA
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzExYmRjNTM5Y2Q1NjEzZDAxOTk1ZjQiLCJpYXQiOjE1NDQ2NjY1NzN9.FtQOr6yxYAGpcSOa1m_2ww1ncAS3brR9tjyYZxfHG-I
 
 {
     "name": "Sci-fi"

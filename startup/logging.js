@@ -27,7 +27,7 @@ module.exports = function() {
     })
   );
 
-  if (process.env.NODE_ENV !== "Production") {
+  if (process.env.NODE_ENV !== "production") {
     winston.add(
       new winston.transports.Console({
         colorize: true,

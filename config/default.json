@@ -1,5 +1,6 @@
 {
   "name": "My Vidly App",
-  "jwtPrivateKey": "",
-  "db": "mongodb://localhost:27017/vidly"
+  "jwtPrivateKey": "unsecured",
+  "db": "mongodb://localhost:27017/vidly",
+  "requiresAuth": false
 }

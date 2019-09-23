@@ -2,5 +2,5 @@
   "name": "My Vidly App",
   "jwtPrivateKey": "unsecured",
   "db": "mongodb://localhost:27017/vidly",
-  "requiresAuth": false
+  "requiresAuth": true
 }
